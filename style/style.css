@@ -12,7 +12,7 @@ body{
     min-width: 1400px;
 }
 
-/* header */
+/* ! header */
 .header{
     background-color: aquamarine;
     display: flex;
@@ -57,3 +57,30 @@ body{
     list-style: none;
 }
 
+/* ! MAIN */
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main > .container{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    /* debug */
+    min-height: 700px;
+    background-color: coral;
+    border: 2px dashed black;
+}
+
+.main .card{
+    margin-bottom: 50px;
+    width: calc(100%/3 - 20px);
+    
+    /* debug */
+    min-height: 400px;
+    background-color: lightslategray;
+    border: 2px dashed white;
+}
