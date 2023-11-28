@@ -14,27 +14,27 @@ body{
 
 /* ! header */
 .header{
-    background-color: aquamarine;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
+    background-color: #ff6900;
 
     /* debug */
-    min-height: 80px;
+    min-height: 70px;
 }
 
 .header .container{
-    background-color: goldenrod;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* debug */
-    border: 2px dashed black;
+    color: white;
+    font-weight: bold;
 }
 
 .header .container>*{
-    border: 2px dashed white;
     padding: 10px;
 }
 
@@ -48,16 +48,27 @@ body{
     text-align: center;
 }
 
+.header-logo img{
+    height: 30px;
+}
+
 .header-icon{
     text-align: right;
+}
+
+.header-icon i{
+    margin-left: 5px;
 }
 
 .header .header-link li{
     display: inline-block;
     list-style: none;
+    margin-right: 5px;
 }
 
-/* ! MAIN */
+
+/* 
+
 .main{
     display: flex;
     justify-content: center;
@@ -69,7 +80,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
 
-    /* debug */
+    
     min-height: 700px;
     background-color: coral;
     border: 2px dashed black;
@@ -79,18 +90,18 @@ body{
     margin-bottom: 50px;
     width: calc(100%/3 - 20px);
     
-    /* debug */
+    
     min-height: 400px;
     background-color: lightslategray;
     border: 2px dashed white;
 }
 
-/* ! FOOTER */
+
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
+    
     min-height: 100px;
     background-color: #242323;
 }
@@ -98,14 +109,14 @@ body{
 .footer > .container{
     display: flex;
     justify-content: space-between;
-    /* debug */
+    
     background-color: greenyellow;
 }
 
 .footer > .container > *{
     width: 50%;
     padding: 20px 0;
-    /* debug */
+    
     border: 2px dashed white;
     min-height: 100%;
 }
@@ -113,3 +124,4 @@ body{
 .footer-icon{
     text-align: right;
 }
+*/
