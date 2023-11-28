@@ -21,7 +21,7 @@ body{
     padding: 10px 0;
 
     /* debug */
-    min-height: 100px;
+    min-height: 80px;
 }
 
 .header .container{
@@ -83,4 +83,33 @@ body{
     min-height: 400px;
     background-color: lightslategray;
     border: 2px dashed white;
+}
+
+/* ! FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    min-height: 100px;
+    background-color: #242323;
+}
+
+.footer > .container{
+    display: flex;
+    justify-content: space-between;
+    /* debug */
+    background-color: greenyellow;
+}
+
+.footer > .container > *{
+    width: 50%;
+    padding: 20px 0;
+    /* debug */
+    border: 2px dashed white;
+    min-height: 100%;
+}
+
+.footer-icon{
+    text-align: right;
 }
