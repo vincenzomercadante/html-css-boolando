@@ -148,13 +148,12 @@ body{
     text-decoration: line-through;
 }
 
+/* ! FOOTER */
 
-/*
 .footer{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
     min-height: 100px;
     background-color: #242323;
 }
@@ -162,19 +161,43 @@ body{
 .footer > .container{
     display: flex;
     justify-content: space-between;
-    
-    background-color: greenyellow;
 }
 
 .footer > .container > *{
     width: 50%;
     padding: 20px 0;
-    
-    border: 2px dashed white;
-    min-height: 100%;
+    color: white;
+}
+
+.footer-info h1{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.footer-info .footer-link{
+    margin-right: 5px;
+    font-size: 0.9rem;
+}
+
+.footer-info .footer-link a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-info .footer-link a:hover{
+    text-decoration: under;
 }
 
 .footer-icon{
     text-align: right;
 }
-*/
+
+.footer-advice{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.footer-icon .fa-brands{
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
