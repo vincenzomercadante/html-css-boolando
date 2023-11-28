@@ -12,6 +12,10 @@ body{
     width: 1400px;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* ! header */
 .header{
     padding: 10px 0;
@@ -55,9 +59,15 @@ body{
     text-align: right;
 }
 
+.header-icon a{
+    color: white;
+}
+
 .header-icon i{
     margin-left: 5px;
 }
+
+
 
 .header .header-link li{
     display: inline-block;
@@ -65,6 +75,15 @@ body{
     margin-right: 5px;
 }
 
+.header .header-link li>a{
+    color: white;
+}
+
+.header .header-link li>a:hover{
+    text-decoration: underline;
+}
+
+/* ! MAIN */
 .main{
     display: flex;
     justify-content: center;
@@ -203,7 +222,7 @@ body{
 }
 
 .footer-info .footer-link a:hover{
-    text-decoration: under;
+    text-decoration: underline;
 }
 
 .footer-icon{
@@ -213,6 +232,10 @@ body{
 .footer-advice{
     font-size: 1rem;
     margin-bottom: 10px;
+}
+
+.footer-icon a{
+    color: white;
 }
 
 .footer-icon .fa-brands{
