@@ -80,6 +80,11 @@ body{
 .main .card{
     margin-bottom: 50px;
     width: calc(100%3 - 20);
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container{
     position: relative;
 }
 
@@ -96,6 +101,53 @@ body{
     font-size: 2.2rem;
     background-color: white;
 }
+
+.card-ticket{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.card-ticket .sales,
+.card-ticket .sostenibilita{
+    padding: 5px 10px;
+}
+
+.card-ticket .sales{
+    background-color: red;
+}
+
+
+.card-ticket .sostenibilita{   
+    background-color: green;
+}
+
+.card-info .marca,
+.card-info .card-item{
+    display: block;
+}
+
+.card-info .marca,
+.card-info .prezzo{
+    font-size: 0.9rem;
+}
+
+.card-info .card-item{
+    font-weight: bold;
+}
+
+.card-info .prezzo{
+    color: red;
+    font-weight: bold;
+}
+
+
+.card-info .prezzo-origin{
+    text-decoration: line-through;
+}
+
 
 /*
 .footer{
